@@ -72,4 +72,19 @@ $ git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.g
 $ git remote -v
 ```
 
+Отправить изменения в удалённый репозиторий.
+
+Первый раз выполнить команду и связать ветки.
+
+```
+$ git push -u origin main # или master
+```
+
+В следующий раз и далее.
+
+```
+$ git push
+```
+
+
 
