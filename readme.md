@@ -60,3 +60,9 @@ $ git log --oneline
 $ ssh -T git@github.com
 ```
 
+Связать локальный репозиторий с удалённым на GitHub.
+
+```
+$ git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.git
+```
+
