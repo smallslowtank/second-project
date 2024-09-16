@@ -133,4 +133,10 @@ $ git restore --staged .
 $ git reset --hard <commit_hash>
 ```
 
+Откатить изменения файла, которые не попали в список на коммит и в сам коммит
+
+```
+$ git restore file
+```
+
 
