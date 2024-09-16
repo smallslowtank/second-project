@@ -7,18 +7,11 @@ $ sudo apt-get install git
 $ git --version
 ```
 
-Инициализация репозитория (_команды выполняются в папке проекта_)
-```bash
-$ git init
-$ git config --list
-$ git config user.name user_name
-$ git config user.email user_email
+Настройка Git. Файл конфигурации **.gitconfig**<br>
+Добавить имя и почту пользователя
+
 ```
-Проверка статуса  
+$ git config --global user.name "user_name"
+$ git config --global user.email user@email
 ```
-$ git status
-```
-Добавление всех файлов для отслеживания
-```
-$ git add .
-```
+
