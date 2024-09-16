@@ -101,5 +101,18 @@ $ git push
 Можно использовать язык разметки **markdown** [Шпаргалка](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c)<br>
 И формат описания схем [Mermaid](https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid)
 
+**Редактирование последнего коммита**<br>
+Добавить файл, не менять комментарий.
+
+```
+$ git add file
+$ git commit --amend --no-edit
+```
+
+Изменить комментарий.
+
+```
+$ git commit --amend -m "Новый комментарий"
+```
 
 
