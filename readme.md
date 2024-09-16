@@ -127,7 +127,7 @@ $ git restore --staged file
 $ git restore --staged .
 ```
 
-Откатить коммит
+Откатиться к коммиту (коммиты после этого будут потеряны)
 
 ```
 $ git reset --hard <commit_hash>
