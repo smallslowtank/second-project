@@ -115,4 +115,16 @@ $ git commit --amend --no-edit
 $ git commit --amend -m "Новый комментарий"
 ```
 
+Убрать файл из списка на коммит (после git add)
+
+```
+$ git restore --staged file
+```
+
+Убрать все файлы из списка на коммит
+
+```
+$ git restore --staged .
+```
+
 
