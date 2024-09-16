@@ -66,3 +66,10 @@ $ ssh -T git@github.com
 $ git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.git
 ```
 
+Проверить что репозитории связаны.
+
+```
+$ git remote -v
+```
+
+
