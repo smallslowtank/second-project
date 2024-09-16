@@ -54,3 +54,9 @@ $ git log
 $ git log --oneline
 ```
 
+Проверка ssh-ключа на GitHub.
+
+```
+$ ssh -T git@github.com
+```
+
