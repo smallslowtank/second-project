@@ -86,15 +86,20 @@ $ git push -u origin main # или master
 $ git push
 ```
 
-Статусы файлов в репозитории:
+**Статусы файлов в репозитории:**
 - untracked (не отслеживается)
 - tracked (отслеживается)
 - staged (подготовленный, отслеживается)
 - modified (изменённый, отслеживается)
 
-Стили оформления коммитов:
+**Стили оформления коммитов:**
 - Корпоративный
 - Conventional Commits
 - GitHub
+
+Файл **README.md**<br>
+Можно использовать язык разметки **markdown** [Шпаргалка](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c)<br>
+И формат описания схем [Mermaid](https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid)
+
 
 
