@@ -170,4 +170,10 @@ $ git status --ignored
 $ git clone <....>
 ```
 
+Просмотр веток проекта
+
+```
+$ git branch
+```
+
 
